@@ -362,4 +362,212 @@
         ]
     },
     "onSubmitMessage": "Your request has been submitted, we will be in touch soon!"
+},
+{
+    layout: {
+        steps: [
+            {
+                rows: [
+                    {
+                        hidden: true,
+                        cells: [
+                            {
+                                title: "Title",
+                                type: "column",
+                                info: {
+                                    internalName: "Title",
+                                    type: "text",
+                                    defaultValue: "[Email] [FirstName] [LastName]"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        cells: [
+                            {
+                                info: {
+                                    internalName: "FirstName",
+                                    type: "text",
+                                    validations: [
+                                        {
+                                            name: "required"
+                                        }
+                                    ]
+                                },
+                                title: "First Name",
+                                type: "column"
+                            },
+                            {
+                                info: {
+                                    internalName: "LastName",
+                                    type: "text",
+                                    validations: [
+                                        {
+                                            name: "required"
+                                        }
+                                    ]
+                                },
+                                title: "Last Name",
+                                type: "column"
+                            }
+                        ]
+                    },
+                    {
+                        cells: [
+                            {
+                                info: {
+                                    internalName: "Email",
+                                    type: "text",
+                                    validations: [
+                                        {
+                                            name: "required"
+                                        },
+                                        {
+                                            name: "email"
+                                        }
+                                    ]
+                                },
+                                title: "Email",
+                                type: "column"
+                            },
+                            {
+                                info: {
+                                    internalName: "PhoneNumber",
+                                    type: "text",
+                                    validations: [
+                                        {
+                                            name: "phone"
+                                        }
+                                    ]
+                                },
+                                title: "Phone number",
+                                type: "column"
+                            }
+                        ]
+                    },
+                    {
+                        cells: [
+                            {
+                                info: {
+                                    internalName: "ContactSource",
+                                    isMulti: false,
+                                    options: [
+                                        {
+                                            key: "Search",
+                                            value: "Search"
+                                        },
+                                        {
+                                            key: "Event",
+                                            value: "Event"
+                                        },
+                                        {
+                                            key: "Friend",
+                                            value: "Friend"
+                                        }
+                                    ],
+                                    type: "choice"
+                                },
+                                title: "How did you hear about us?",
+                                type: "column"
+                            },
+                            {
+                                conditions: [
+                                    {
+                                        field: "ContactSource",
+                                        operator: "is",
+                                        value: "Friend"
+                                    }
+                                ],
+                                else: {
+                                    html: "",
+                                    type: "html"
+                                },
+                                info: {
+                                    internalName: "ReferralName",
+                                    type: "text"
+                                },
+                                title: "Referral name",
+                                type: "column"
+                            }
+                        ]
+                    },
+                    {
+                        cells: [
+                            {
+                                info: {
+                                    internalName: "MemberID",
+                                    prefix: "MID-",
+                                    type: "text"
+                                },
+                                title: "Member ID",
+                                type: "column"
+                            },
+                            {
+                                info: {
+                                    internalName: "BookingID",
+                                    prefix: "#",
+                                    type: "text"
+                                },
+                                title: "Booking ID",
+                                type: "column"
+                            }
+                        ]
+                    }
+                ],
+                title: "Customer info"
+            },
+            {
+                rows: [
+                    {
+                        cells: [
+                            {
+                                info: {
+                                    internalName: "NeedInsurance",
+                                    off: "No, I have my own insurance",
+                                    on: "Yes, add insurance",
+                                    type: "bool"
+                                },
+                                title: "Need insurance?",
+                                type: "column"
+                            },
+                            {
+                                info: {
+                                    internalName: "WaiveDeductible",
+                                    off: "No, I will pay for damages",
+                                    on: "Yes, wave deductible",
+                                    type: "bool"
+                                },
+                                title: "Waive deductible?",
+                                type: "column"
+                            }
+                        ]
+                    },
+                    {
+                        cells: [
+                            {
+                                conditions: [
+                                    {
+                                        field: "WaiveDeductible",
+                                        negate: true,
+                                        operator: "is",
+                                        value: "true"
+                                    }
+                                ],
+                                info: {
+                                    defaultValue: "https://apps.kwizcom.com/products/apsig/images/diagrams/car/car-diagram-transparent.png",
+                                    height: 500,
+                                    internalName: "car",
+                                    type: "canvas"
+                                },
+                                title: "Mark damages",
+                                type: "column"
+                            }
+                        ]
+                    }
+                ],
+                title: "Rental"
+            }
+        ]
+    },
+    onSubmitMessage: "You're all set. Drive safe!"
 }]
