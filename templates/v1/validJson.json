@@ -151,4 +151,215 @@
         }]
     },
     "onSubmitMessage": "Thank you for contacting us!"
+},
+{
+    "layout": {
+        "steps": [
+            {
+                "rows": [
+                    {
+                        "hidden": true,
+                        "cells": [
+                            {
+                                "title": "Title",
+                                "type": "column",
+                                "info": {
+                                    "internalName": "Title",
+                                    "type": "text",
+                                    "defaultValue": "[Email] [FirstName] [LastName]"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "cells": [
+                            {
+                                "info": {
+                                    "internalName": "FirstName",
+                                    "type": "text",
+                                    "validations": [
+                                        {
+                                            "name": "required"
+                                        }
+                                    ]
+                                },
+                                "title": "First Name",
+                                "type": "column"
+                            },
+                            {
+                                "info": {
+                                    "internalName": "LastName",
+                                    "type": "text",
+                                    "validations": [
+                                        {
+                                            "name": "required"
+                                        }
+                                    ]
+                                },
+                                "title": "Last Name",
+                                "type": "column"
+                            }
+                        ]
+                    },
+                    {
+                        "cells": [
+                            {
+                                "info": {
+                                    "internalName": "Email",
+                                    "type": "text",
+                                    "validations": [
+                                        {
+                                            "name": "required"
+                                        },
+                                        {
+                                            "name": "email"
+                                        }
+                                    ]
+                                },
+                                "title": "Email",
+                                "type": "column"
+                            },
+                            {
+                                "info": {
+                                    "internalName": "PhoneNumber",
+                                    "type": "text",
+                                    "validations": [
+                                        {
+                                            "name": "phone"
+                                        }
+                                    ]
+                                },
+                                "title": "Phone number",
+                                "type": "column"
+                            }
+                        ]
+                    },
+                    {
+                        "cells": [
+                            {
+                                "info": {
+                                    "internalName": "ContactSource",
+                                    "isMulti": false,
+                                    "options": [
+                                        {
+                                            "key": "Search",
+                                            "value": "Search"
+                                        },
+                                        {
+                                            "key": "Event",
+                                            "value": "Event"
+                                        },
+                                        {
+                                            "key": "Friend",
+                                            "value": "Friend"
+                                        }
+                                    ],
+                                    "type": "choice"
+                                },
+                                "title": "How did you hear about us?",
+                                "type": "column"
+                            },
+                            {
+                                "conditions": [
+                                    {
+                                        "field": "ContactSource",
+                                        "operator": "is",
+                                        "value": "Friend"
+                                    }
+                                ],
+                                "else": {
+                                    "html": "",
+                                    "type": "html"
+                                },
+                                "info": {
+                                    "internalName": "ReferralName",
+                                    "type": "text"
+                                },
+                                "title": "Referral name",
+                                "type": "column"
+                            }
+                        ]
+                    },
+                    {
+                        "cells": [
+                            {
+                                "info": {
+                                    "internalName": "Position",
+                                    "isMulti": false,
+                                    "options": [
+                                        {
+                                            "key": "Sales",
+                                            "value": "Sales"
+                                        },
+                                        {
+                                            "key": "Marketing",
+                                            "value": "Marketing"
+                                        },
+                                        {
+                                            "key": "Operations",
+                                            "value": "Operations"
+                                        }
+                                    ],
+                                    "type": "choice",
+                                    "validations": [
+                                        {
+                                            "name": "required"
+                                        }
+                                    ]
+                                },
+                                "title": "Position",
+                                "type": "column"
+                            },
+                            {
+                                "info": {
+                                    "fileTypes": [
+                                        "docx",
+                                        "pdf"
+                                    ],
+                                    "internalName": "cv",
+                                    "type": "file",
+                                    "validations": [
+                                        {
+                                            "name": "required"
+                                        }
+                                    ]
+                                },
+                                "title": "CV",
+                                "type": "column"
+                            }
+                        ]
+                    },
+                    {
+                        "cells": [
+                            {
+                                "info": {
+                                    "internalName": "CoverLetter",
+                                    "mode": "multiline",
+                                    "type": "text",
+                                    "validations": [
+                                        {
+                                            "name": "required"
+                                        },
+                                        {
+                                            "conditions": [
+                                                {
+                                                    "field": "CoverLetter",
+                                                    "operator": "less",
+                                                    "value": "10"
+                                                }
+                                            ],
+                                            "error": "Please provide more info"
+                                        }
+                                    ]
+                                },
+                                "title": "Cover letter",
+                                "type": "column"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "onSubmitMessage": "Your request has been submitted, we will be in touch soon!"
 }
