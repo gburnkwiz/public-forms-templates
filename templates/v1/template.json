@@ -1,4 +1,4 @@
-const contactUs: iPublicForm = {
+{
     layout: {
         title: "Contact Us",
         steps: [{
@@ -153,7 +153,7 @@ const contactUs: iPublicForm = {
     },
     onSubmitMessage: "Thank you for contacting us!"
 }
-const jobApplication: iPublicForm = {
+{
     layout: {
         steps: [
             {
@@ -365,7 +365,7 @@ const jobApplication: iPublicForm = {
     onSubmitMessage: "Your request has been submitted, we will be in touch soon!"
 }
 
-const carRental: iPublicForm = {
+{
     layout: {
         steps: [
             {
@@ -574,7 +574,7 @@ const carRental: iPublicForm = {
     onSubmitMessage: "You're all set. Drive safe!"
 };
 
-const jobSafety: iPublicForm = {
+{
     layout: {
         steps: [
             {
