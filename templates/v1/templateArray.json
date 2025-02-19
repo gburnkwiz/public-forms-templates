@@ -2,6 +2,5 @@
     { "title": "Contact form", "description": "A simple 'contact us' form", "form": "" },
     { "title": "Job application", "description": "Allow candidates to submit CVs", "form": "" },
     { "title": "Car rental", "description": "Car rental inspection form" },
-    { "title": "Job safety", "description": "Log safety concerns on your job site", "form": "" },
-    { "title": "this is a title", "description": "this is a description", "form": "" }
+    { "title": "Job safety", "description": "Log safety concerns on your job site", "form": "" }
 ]
