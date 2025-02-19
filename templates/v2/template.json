@@ -1,8 +1,6 @@
-{
-  "formName": "User Registration",
-  "fields": [
-    { "label": "First Name", "type": "text", "required": true },
-    { "label": "Last Name", "type": "text", "required": true },
-    { "label": "Email", "type": "email", "required": true }
-  ]
-}
+[
+    { "title": "Contact form", "description": "A simple 'contact us' form", "form": "" },
+    { "title": "Job application", "description": "Allow candidates to submit CVs", "form": "" },
+    { "title": "Car rental", "description": "Car rental inspection form" },
+    { "title": "Job safety", "description": "Log safety concerns on your job site", "form": "" }
+]
