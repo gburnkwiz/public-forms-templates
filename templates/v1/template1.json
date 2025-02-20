@@ -570,9 +570,8 @@
         ]
     },
     "onSubmitMessage": "You're all set. Drive safe!"
-}
-[
-    {
+},
+{
     "layout": {
         "steps": [
             {
