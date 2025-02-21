@@ -1,6 +1,6 @@
 [
-    { "title": "Contact form", "description": "A simple 'contact us' form", "form": "" },
-    { "title": "Job application", "description": "Allow candidates to submit CVs", "form": "" },
-    { "title": "Car rental", "description": "Car rental inspection form" },
-    { "title": "Job safety", "description": "Log safety concerns on your job site", "form": "" }
+    { "title": "Contact form", "description": "A simple 'contact us' form", "fileName": "template1.json" },
+    { "title": "Job application", "description": "Allow candidates to submit CVs", "fileName": "template2.json" },
+    { "title": "Car rental", "description": "Car rental inspection form", "fileName": "template3.json" },
+    { "title": "Job safety", "description": "Log safety concerns on your job site", "fileName": "template4.json"}
 ]
