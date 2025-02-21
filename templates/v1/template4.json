@@ -4,6 +4,14 @@
             {
                 "rows": [
                     {
+                        "cells": [
+                            {
+                                "html": "<p><strong>Report safety concerns on your job site</strong></p><p>Please click the upload button to the right of the canvas, and draw on the picture.</p>",
+                                "type": "html"
+                            }
+                        ]
+                    },
+                    {
                         "hidden": true,
                         "cells": [
                             {
@@ -12,7 +20,7 @@
                                 "info": {
                                     "internalName": "Title",
                                     "type": "text",
-                                    "defaultValue": "[Email] [FirstName] [LastName]"
+                                    "defaultValue": "[Severity] [JobID] [Location]"
                                 }
                             }
                         ]
@@ -21,28 +29,19 @@
                         "cells": [
                             {
                                 "info": {
-                                    "internalName": "FirstName",
+                                    "internalName": "JobID",
                                     "type": "text",
-                                    "validations": [
-                                        {
-                                            "name": "required"
-                                        }
-                                    ]
+                                    "validations": [{ "name": "required" }]
                                 },
-                                "title": "First Name",
+                                "title": "Job ID",
                                 "type": "column"
                             },
                             {
                                 "info": {
-                                    "internalName": "LastName",
-                                    "type": "text",
-                                    "validations": [
-                                        {
-                                            "name": "required"
-                                        }
-                                    ]
+                                    "internalName": "Location",
+                                    "type": "text"
                                 },
-                                "title": "Last Name",
+                                "title": "Location",
                                 "type": "column"
                             }
                         ]
@@ -51,77 +50,27 @@
                         "cells": [
                             {
                                 "info": {
-                                    "internalName": "Email",
-                                    "type": "text",
-                                    "validations": [
-                                        {
-                                            "name": "required"
-                                        },
-                                        {
-                                            "name": "email"
-                                        }
-                                    ]
-                                },
-                                "title": "Email",
-                                "type": "column"
-                            },
-                            {
-                                "info": {
-                                    "internalName": "PhoneNumber",
-                                    "type": "text",
-                                    "validations": [
-                                        {
-                                            "name": "phone"
-                                        }
-                                    ]
-                                },
-                                "title": "Phone number",
-                                "type": "column"
-                            }
-                        ]
-                    },
-                    {
-                        "cells": [
-                            {
-                                "info": {
-                                    "internalName": "ContactSource",
+                                    "internalName": "Severity",
+                                    "defaultValue": "Normal",
                                     "isMulti": false,
                                     "options": [
                                         {
-                                            "key": "Search",
-                                            "value": "Search"
+                                            "key": "Normal",
+                                            "value": "Normal"
                                         },
                                         {
-                                            "key": "Event",
-                                            "value": "Event"
+                                            "key": "High",
+                                            "value": "High"
                                         },
                                         {
-                                            "key": "Friend",
-                                            "value": "Friend"
+                                            "key": "Urgent",
+                                            "value": "Urgent"
                                         }
                                     ],
-                                    "type": "choice"
+                                    "type": "choice",
+                                    "validations": [{ "name": "required" }]
                                 },
-                                "title": "How did you hear about us?",
-                                "type": "column"
-                            },
-                            {
-                                "conditions": [
-                                    {
-                                        "field": "ContactSource",
-                                        "operator": "is",
-                                        "value": "Friend"
-                                    }
-                                ],
-                                "else": {
-                                    "html": "",
-                                    "type": "html"
-                                },
-                                "info": {
-                                    "internalName": "ReferralName",
-                                    "type": "text"
-                                },
-                                "title": "Referral name",
+                                "title": "Severity",
                                 "type": "column"
                             }
                         ]
@@ -130,79 +79,20 @@
                         "cells": [
                             {
                                 "info": {
-                                    "internalName": "MemberID",
-                                    "prefix": "MID-",
-                                    "type": "text"
-                                },
-                                "title": "Member ID",
-                                "type": "column"
-                            },
-                            {
-                                "info": {
-                                    "internalName": "BookingID",
-                                    "prefix": "#",
-                                    "type": "text"
-                                },
-                                "title": "Booking ID",
-                                "type": "column"
-                            }
-                        ]
-                    }
-                ],
-                "title": "Customer info"
-            },
-            {
-                "rows": [
-                    {
-                        "cells": [
-                            {
-                                "info": {
-                                    "internalName": "NeedInsurance",
-                                    "off": "No, I have my own insurance",
-                                    "on": "Yes, add insurance",
-                                    "type": "bool"
-                                },
-                                "title": "Need insurance?",
-                                "type": "column"
-                            },
-                            {
-                                "info": {
-                                    "internalName": "WaiveDeductible",
-                                    "off": "No, I will pay for damages",
-                                    "on": "Yes, wave deductible",
-                                    "type": "bool"
-                                },
-                                "title": "Waive deductible?",
-                                "type": "column"
-                            }
-                        ]
-                    },
-                    {
-                        "cells": [
-                            {
-                                "conditions": [
-                                    {
-                                        "field": "WaiveDeductible",
-                                        "negate": true,
-                                        "operator": "is",
-                                        "value": "true"
-                                    }
-                                ],
-                                "info": {
-                                    "defaultValue": "https://apps.kwizcom.com/products/apsig/images/diagrams/car/car-diagram-transparent.png",
+                                    "allowFullScreen": true,
+                                    "allowUpload": true,
                                     "height": 500,
-                                    "internalName": "car",
+                                    "internalName": "diagram",
                                     "type": "canvas"
                                 },
-                                "title": "Mark damages",
+                                "title": "Picture",
                                 "type": "column"
                             }
                         ]
                     }
-                ],
-                "title": "Rental"
+                ]
             }
         ]
     },
-    "onSubmitMessage": "You're all set. Drive safe!"
+    "onSubmitMessage": "Your request has been submitted."
 }
