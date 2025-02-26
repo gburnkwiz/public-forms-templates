@@ -3,5 +3,6 @@
     { "title": "Job application", "description": "Allow candidates to submit CVs", "fileName": "template2.json" },
     { "title": "Car rental", "description": "Car rental inspection form", "fileName": "template3.json" },
     { "title": "Job safety", "description": "Log safety concerns on your job site", "fileName": "template4.json"},
-    { "title": "New Template", "description": "Log safety concerns on your job site", "fileName": "template5.json"}
+    { "title": "New Template", "description": "Log safety concerns on your job site", "fileName": "template6.json"}
+    { "title": "Improper format", "description": "Log safety concerns on your job site", "fileName": "template5.json"}
 ]
