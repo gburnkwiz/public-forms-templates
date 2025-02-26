@@ -1,0 +1,14 @@
+{
+  "name": "John Doe",
+  "age": 30,
+  "email": "johndoe@example.com",
+  "isSubscriber": true,
+  "preferences": {
+    "theme": "dark",
+    "notifications": {
+      "email": true,
+      "sms": false
+    }
+  },
+  "tags": ["developer", "blogger", "gamer"]
+}
