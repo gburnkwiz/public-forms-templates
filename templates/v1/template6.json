@@ -26,7 +26,7 @@
                 "title": "Site Address",
                 "type": "column",
                 "info": {
-                  "internalName": "SiteAddress",
+                  "internalName": "siteAddress",
                   "type": "text",
                   "validations": [
                     {
@@ -39,7 +39,7 @@
                 "title": "Inspector Name",
                 "type": "column",
                 "info": {
-                  "internalName": "InspectorName",
+                  "internalName": "inspectorName",
                   "type": "text",
                   "validations": [
                     {
@@ -56,7 +56,7 @@
                 "title": "Date",
                 "type": "column",
                 "info": {
-                  "internalName": "InspectionDate",
+                  "internalName": "inspectionDate",
                   "type": "date",
                   "validations": [
                     {
@@ -98,7 +98,7 @@
                 "title": "Describe current site conditions",
                 "type": "column",
                 "info": {
-                  "internalName": "SiteConditionDescription",
+                  "internalName": "siteConditionDescription",
                   "type": "text",
                   "mode": "multiline",
                   "validations": [
@@ -116,7 +116,7 @@
                 "title": "Site condition image(s)",
                 "type": "column",
                 "info": {
-                  "internalName": "SiteImages",
+                  "internalName": "siteImages",
                   "type": "file",
                   "isMulti": true,
                   "fileTypes": [
@@ -158,7 +158,7 @@
                 "title": "Did you see any safety violations?",
                 "type": "column",
                 "info": {
-                  "internalName": "SafetyViolation1",
+                  "internalName": "safetyViolation1",
                   "type": "bool",
                   "on": "Yes",
                   "off": "No"
@@ -172,7 +172,7 @@
                 "title": "Upload violation here",
                 "type": "column",
                 "info": {
-                  "internalName": "ViolationImage1",
+                  "internalName": "violationImage1",
                   "type": "canvas",
                   "allowFullScreen": true,
                   "allowUpload": true
@@ -193,7 +193,7 @@
                 "title": "Did you see any other safety violations?",
                 "type": "column",
                 "info": {
-                  "internalName": "SafetyViolation2",
+                  "internalName": "safetyViolation2",
                   "type": "bool",
                   "on": "Yes",
                   "off": "No"
@@ -214,7 +214,7 @@
                 "title": "Upload violation here",
                 "type": "column",
                 "info": {
-                  "internalName": "ViolationImage2",
+                  "internalName": "violationImage2",
                   "type": "canvas",
                   "allowFullScreen": true,
                   "allowUpload": true
@@ -235,7 +235,7 @@
                 "title": "Did you see any other safety violations?",
                 "type": "column",
                 "info": {
-                  "internalName": "SafetyViolation3",
+                  "internalName": "safetyViolation3",
                   "type": "bool",
                   "on": "Yes",
                   "off": "No"
@@ -256,7 +256,7 @@
                 "title": "Upload violation here",
                 "type": "column",
                 "info": {
-                  "internalName": "ViolationImage2",
+                  "internalName": "violationImage2",
                   "type": "canvas",
                   "allowFullScreen": true,
                   "allowUpload": true
@@ -298,7 +298,7 @@
                 "title": "Summary of Findings",
                 "type": "column",
                 "info": {
-                  "internalName": "FindingsSummary",
+                  "internalName": "findingsSummary",
                   "type": "text",
                   "mode": "multiline",
                   "validations": [
@@ -316,7 +316,7 @@
                 "title": "Site Rating",
                 "type": "column",
                 "info": {
-                  "internalName": "SiteRating",
+                  "internalName": "siteRating",
                   "type": "choice",
                   "options": [
                     {
@@ -359,7 +359,7 @@
                 "title": "Site Manager",
                 "type": "column",
                 "info": {
-                  "internalName": "SiteManagerSignature",
+                  "internalName": "siteManagerSignature",
                   "type": "canvas",
                   "height": 200,
                   "width": 200,
@@ -372,7 +372,7 @@
                 "title": "Inspector",
                 "type": "column",
                 "info": {
-                  "internalName": "SiteManagerSignature",
+                  "internalName": "siteManagerSignature",
                   "type": "canvas",
                   "height": 200,
                   "width": 200,
