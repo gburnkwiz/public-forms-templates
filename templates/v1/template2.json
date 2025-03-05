@@ -10,7 +10,7 @@
                                 "title": "Title",
                                 "type": "column",
                                 "info": {
-                                    "internalName": "Title",
+                                    "internalName": "title",
                                     "type": "text",
                                     "defaultValue": "[Email] [FirstName] [LastName]"
                                 }
@@ -21,7 +21,7 @@
                         "cells": [
                             {
                                 "info": {
-                                    "internalName": "FirstName",
+                                    "internalName": "firstName",
                                     "type": "text",
                                     "validations": [
                                         {
@@ -34,7 +34,7 @@
                             },
                             {
                                 "info": {
-                                    "internalName": "LastName",
+                                    "internalName": "lastName",
                                     "type": "text",
                                     "validations": [
                                         {
@@ -51,7 +51,7 @@
                         "cells": [
                             {
                                 "info": {
-                                    "internalName": "Email",
+                                    "internalName": "email",
                                     "type": "text",
                                     "validations": [
                                         {
@@ -67,7 +67,7 @@
                             },
                             {
                                 "info": {
-                                    "internalName": "PhoneNumber",
+                                    "internalName": "phoneNumber",
                                     "type": "text",
                                     "validations": [
                                         {
@@ -84,7 +84,7 @@
                         "cells": [
                             {
                                 "info": {
-                                    "internalName": "ContactSource",
+                                    "internalName": "contactSource",
                                     "isMulti": false,
                                     "options": [
                                         {
@@ -118,7 +118,7 @@
                                     "type": "html"
                                 },
                                 "info": {
-                                    "internalName": "ReferralName",
+                                    "internalName": "referralName",
                                     "type": "text"
                                 },
                                 "title": "Referral name",
@@ -130,7 +130,7 @@
                         "cells": [
                             {
                                 "info": {
-                                    "internalName": "Position",
+                                    "internalName": "position",
                                     "isMulti": false,
                                     "options": [
                                         {
@@ -179,7 +179,7 @@
                         "cells": [
                             {
                                 "info": {
-                                    "internalName": "CoverLetter",
+                                    "internalName": "coverLetter",
                                     "mode": "multiline",
                                     "type": "text",
                                     "validations": [
