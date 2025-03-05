@@ -18,7 +18,7 @@
                                 "title": "Title",
                                 "type": "column",
                                 "info": {
-                                    "internalName": "Title",
+                                    "internalName": "title",
                                     "type": "text",
                                     "defaultValue": "[Severity] [JobID] [Location]"
                                 }
@@ -29,7 +29,7 @@
                         "cells": [
                             {
                                 "info": {
-                                    "internalName": "JobID",
+                                    "internalName": "jobID",
                                     "type": "text",
                                     "validations": [{ "name": "required" }]
                                 },
@@ -38,7 +38,7 @@
                             },
                             {
                                 "info": {
-                                    "internalName": "Location",
+                                    "internalName": "location",
                                     "type": "text"
                                 },
                                 "title": "Location",
@@ -50,7 +50,7 @@
                         "cells": [
                             {
                                 "info": {
-                                    "internalName": "Severity",
+                                    "internalName": "severity",
                                     "defaultValue": "Normal",
                                     "isMulti": false,
                                     "options": [
