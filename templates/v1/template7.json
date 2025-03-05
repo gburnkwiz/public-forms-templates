@@ -18,7 +18,7 @@
                 "title": "First Name",
                 "type": "column",
                 "info": {
-                  "internalName": "FirstName",
+                  "internalName": "firstName",
                   "type": "text",
                   "validations": [
                     {
@@ -31,7 +31,7 @@
                 "title": "Last Name",
                 "type": "column",
                 "info": {
-                  "internalName": "LastName",
+                  "internalName": "lastName",
                   "type": "text",
                   "validations": [
                     {
@@ -49,7 +49,7 @@
                 "type": "column",
                 "info": {
                   "type": "date",
-                  "internalName": "DateOfBirth",
+                  "internalName": "dateOfBirth",
                   "showTime": false,
                   "validations": [
                     {
@@ -63,7 +63,7 @@
                 "type": "column",
                 "info": {
                   "type": "text",
-                  "internalName": "PatientAddress",
+                  "internalName": "patientAddress",
                   "validations": [
                     {
                       "name": "required"
@@ -77,7 +77,7 @@
             "cells": [
               {
                 "info": {
-                  "internalName": "Email",
+                  "internalName": "email",
                   "type": "text",
                   "validations": [
                     {
@@ -93,7 +93,7 @@
               },
               {
                 "info": {
-                  "internalName": "PhoneNumber",
+                  "internalName": "phoneNumber",
                   "type": "text",
                   "validations": [
                     {
@@ -139,7 +139,7 @@
                 "title": "Do you have health insurance",
                 "type": "column",
                 "info": {
-                  "internalName": "HealthInsuranceCheck",
+                  "internalName": "healthInsuranceCheck",
                   "type": "bool",
                   "off": "No",
                   "on": "Yes"
@@ -153,7 +153,7 @@
                 "title": "Insurance Provider Name",
                 "type": "column",
                 "info": {
-                  "internalName": "ProviderName",
+                  "internalName": "providerName",
                   "type": "text",
                   "validations": [
                     {
@@ -173,7 +173,7 @@
                 "title": "Policy Number",
                 "type": "column",
                 "info": {
-                  "internalName": "PolicyNumber",
+                  "internalName": "policyNumber",
                   "type": "number",
                   "validations": [
                     {
@@ -197,7 +197,7 @@
                 "title": "Pharmacy Benefit Plan Information",
                 "type": "column",
                 "info": {
-                  "internalName": "BenefitPlanInfo",
+                  "internalName": "benefitPlanInfo",
                   "type": "text"
                 },
                 "conditions": [
@@ -212,7 +212,7 @@
                 "title": "Deductible Amount",
                 "type": "column",
                 "info": {
-                  "internalName": "DeductibleAmount",
+                  "internalName": "deductibleAmount",
                   "type": "number",
                   "suffix": "$"
                 },
@@ -232,7 +232,7 @@
                 "title": "Insurance Start Date",
                 "type": "column",
                 "info": {
-                  "internalName": "InsuranceStartDate",
+                  "internalName": "insuranceStartDate",
                   "type": "date",
                   "validations": [
                     {
@@ -252,7 +252,7 @@
                 "title": "Plan Type",
                 "type": "column",
                 "info": {
-                  "internalName": "PlanType",
+                  "internalName": "planType",
                   "type": "choice",
                   "options": [
                     {
@@ -322,7 +322,7 @@
                 "title": "Full Name",
                 "type": "column",
                 "info": {
-                  "internalName": "EmergencyContactName",
+                  "internalName": "emergencyContactName",
                   "type": "text",
                   "validations": [
                     {
@@ -335,7 +335,7 @@
                 "title": "Relationship",
                 "type": "column",
                 "info": {
-                  "internalName": "EmergencyContactRelationship",
+                  "internalName": "emergencyContactRelationship",
                   "type": "text",
                   "validations": [
                     {
@@ -350,7 +350,7 @@
             "cells": [
               {
                 "info": {
-                  "internalName": "EmergencyContactEmail",
+                  "internalName": "emergencyContactEmail",
                   "type": "text",
                   "validations": [
                     {
@@ -366,7 +366,7 @@
               },
               {
                 "info": {
-                  "internalName": "EmergencyContactPhoneNumber",
+                  "internalName": "emergencyContactPhoneNumber",
                   "type": "text",
                   "validations": [
                     {
@@ -412,7 +412,7 @@
                 "title": "Would you like to use metric or imperial units",
                 "type": "column",
                 "info": {
-                  "internalName": "UnitChoice",
+                  "internalName": "unitChoice",
                   "type": "bool",
                   "off": "Imperial",
                   "on": "Metric"
@@ -426,7 +426,7 @@
                 "title": "Height",
                 "type": "column",
                 "info": {
-                  "internalName": "ImperialHeight",
+                  "internalName": "imperialHeight",
                   "type": "number",
                   "suffix": "ft & in.",
                   "validations": [
@@ -454,7 +454,7 @@
                 "title": "Weight",
                 "type": "column",
                 "info": {
-                  "internalName": "ImperialWeight",
+                  "internalName": "imperialWeight",
                   "type": "number",
                   "suffix": "lbs",
                   "validations": [
@@ -486,7 +486,7 @@
                 "title": "Height",
                 "type": "column",
                 "info": {
-                  "internalName": "MetricHeight",
+                  "internalName": "metricHeight",
                   "type": "number",
                   "suffix": "cm",
                   "validations": [
@@ -507,7 +507,7 @@
                 "title": "Weight",
                 "type": "column",
                 "info": {
-                  "internalName": "MetricWeight",
+                  "internalName": "metricWeight",
                   "type": "number",
                   "suffix": "kg",
                   "validations": [
@@ -532,7 +532,7 @@
                 "title": "Do you have any pre-existing medical conditions?",
                 "type": "column",
                 "info": {
-                  "internalName": "ExistingConditionsQuestion",
+                  "internalName": "existingConditionsQuestion",
                   "type": "bool",
                   "off": "No",
                   "on": "Yes"
@@ -546,7 +546,7 @@
                 "title": "Describe your pre-existing conditions",
                 "type": "column",
                 "info": {
-                  "internalName": "ExisitngConditionsAnswer",
+                  "internalName": "exisitngConditionsAnswer",
                   "type": "text",
                   "mode": "multiline",
                   "validations": [
@@ -595,7 +595,7 @@
                 "title": "Describe your issue",
                 "type": "column",
                 "info": {
-                  "internalName": "IssueDescription",
+                  "internalName": "issueDescription",
                   "type": "text",
                   "mode": "multiline"
                 }
@@ -608,7 +608,7 @@
                 "title": "Use this diagram to aid your description (Fullscreen as necessary)",
                 "type": "column",
                 "info": {
-                  "internalName": "DiagramAid",
+                  "internalName": "diagramAid",
                   "type": "canvas",
                   "height": 300,
                   "defaultValue": "https://apps.kwizcom.com/products/apsig/images/diagrams/body-frontal/body-frontal-diagram-transparent.png",
@@ -623,7 +623,7 @@
                 "title": "If it would be useful, submit a picture of your wound",
                 "type": "column",
                 "info": {
-                  "internalName": "WoundImage",
+                  "internalName": "woundImage",
                   "type": "file",
                   "isMulti": true,
                   "fileTypes": [
@@ -644,7 +644,7 @@
                 "title": "I state that I fully understood all the questions, received needed explanations and that the data in this questionnaire is authentic",
                 "type": "column",
                 "info": {
-                  "internalName": "Signature",
+                  "internalName": "signature",
                   "type": "canvas",
                   "height": 200,
                   "width": 200,
