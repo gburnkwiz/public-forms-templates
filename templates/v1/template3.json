@@ -10,7 +10,7 @@
                                 "title": "Title",
                                 "type": "column",
                                 "info": {
-                                    "internalName": "Title",
+                                    "internalName": "title",
                                     "type": "text",
                                     "defaultValue": "[Email] [FirstName] [LastName]"
                                 }
@@ -21,7 +21,7 @@
                         "cells": [
                             {
                                 "info": {
-                                    "internalName": "FirstName",
+                                    "internalName": "firstName",
                                     "type": "text",
                                     "validations": [
                                         {
@@ -34,7 +34,7 @@
                             },
                             {
                                 "info": {
-                                    "internalName": "LastName",
+                                    "internalName": "lastName",
                                     "type": "text",
                                     "validations": [
                                         {
@@ -51,7 +51,7 @@
                         "cells": [
                             {
                                 "info": {
-                                    "internalName": "Email",
+                                    "internalName": "email",
                                     "type": "text",
                                     "validations": [
                                         {
@@ -67,7 +67,7 @@
                             },
                             {
                                 "info": {
-                                    "internalName": "PhoneNumber",
+                                    "internalName": "phoneNumber",
                                     "type": "text",
                                     "validations": [
                                         {
@@ -84,7 +84,7 @@
                         "cells": [
                             {
                                 "info": {
-                                    "internalName": "ContactSource",
+                                    "internalName": "contactSource",
                                     "isMulti": false,
                                     "options": [
                                         {
@@ -118,7 +118,7 @@
                                     "type": "html"
                                 },
                                 "info": {
-                                    "internalName": "ReferralName",
+                                    "internalName": "referralName",
                                     "type": "text"
                                 },
                                 "title": "Referral name",
@@ -130,7 +130,7 @@
                         "cells": [
                             {
                                 "info": {
-                                    "internalName": "MemberID",
+                                    "internalName": "memberID",
                                     "prefix": "MID-",
                                     "type": "text"
                                 },
@@ -139,7 +139,7 @@
                             },
                             {
                                 "info": {
-                                    "internalName": "BookingID",
+                                    "internalName": "bookingID",
                                     "prefix": "#",
                                     "type": "text"
                                 },
@@ -157,7 +157,7 @@
                         "cells": [
                             {
                                 "info": {
-                                    "internalName": "NeedInsurance",
+                                    "internalName": "needInsurance",
                                     "off": "No, I have my own insurance",
                                     "on": "Yes, add insurance",
                                     "type": "bool"
@@ -167,7 +167,7 @@
                             },
                             {
                                 "info": {
-                                    "internalName": "WaiveDeductible",
+                                    "internalName": "waiveDeductible",
                                     "off": "No, I will pay for damages",
                                     "on": "Yes, wave deductible",
                                     "type": "bool"
