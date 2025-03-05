@@ -26,7 +26,7 @@
                 "title": "Full Name",
                 "type": "column",
                 "info": {
-                  "internalName": "FirstName",
+                  "internalName": "firstName",
                   "type": "text",
                   "validations": [
                     {
@@ -39,7 +39,7 @@
                 "title": "License Level",
                 "type": "column",
                 "info": {
-                  "internalName": "LicenseLevel",
+                  "internalName": "licenseLevel",
                   "type": "text",
                   "validations": [
                     {
@@ -56,7 +56,7 @@
                 "title": "Years of Driving Experience",
                 "type": "column",
                 "info": {
-                  "internalName": "DrivingExperience",
+                  "internalName": "drivingExperience",
                   "type": "number",
                   "validations": [
                     {
@@ -69,7 +69,7 @@
                 "title": "Start of Coverage",
                 "type": "column",
                 "info": {
-                  "internalName": "CoverageStart",
+                  "internalName": "coverageStart",
                   "type": "date",
                   "showTime": false
                 }
@@ -82,7 +82,7 @@
                 "title": "Policy Number",
                 "type": "column",
                 "info": {
-                  "internalName": "PolicyNumber",
+                  "internalName": "policyNumber",
                   "type": "number",
                   "validations": [
                     {
@@ -95,7 +95,7 @@
                 "title": "Cell Number",
                 "type": "column",
                 "info": {
-                  "internalName": "CellNumber",
+                  "internalName": "cellNumber",
                   "type": "number",
                   "validations": [
                     {
@@ -115,7 +115,7 @@
                 "title": "Email",
                 "type": "column",
                 "info": {
-                  "internalName": "Email",
+                  "internalName": "email",
                   "type": "text",
                   "validations": [
                     {
@@ -171,7 +171,7 @@
                 "title": "Vehicle Make",
                 "type": "column",
                 "info": {
-                  "internalName": "VehicleMake",
+                  "internalName": "vehicleMake",
                   "type": "text",
                   "validations": [
                     {
@@ -184,7 +184,7 @@
                 "title": "Vehicle Model",
                 "type": "column",
                 "info": {
-                  "internalName": "VehicleModel",
+                  "internalName": "vehicleModel",
                   "type": "text",
                   "validations": [
                     {
@@ -201,7 +201,7 @@
                 "title": "Vehicle Color",
                 "type": "column",
                 "info": {
-                  "internalName": "VehicleColor",
+                  "internalName": "vehicleColor",
                   "type": "text",
                   "validations": [
                     {
@@ -214,7 +214,7 @@
                 "title": "Vehicle Year",
                 "type": "column",
                 "info": {
-                  "internalName": "VehicleYear",
+                  "internalName": "vehicleYear",
                   "type": "number",
                   "validations": [
                     {
@@ -231,7 +231,7 @@
                 "title": "License Plate",
                 "type": "column",
                 "info": {
-                  "internalName": "LicensePlate",
+                  "internalName": "licensePlate",
                   "type": "text",
                   "validations": [
                     {
@@ -244,7 +244,7 @@
                 "title": "Vehicle Identification Number (VIN)",
                 "type": "column",
                 "info": {
-                  "internalName": "VehicleIDNum",
+                  "internalName": "vehicleIDNum",
                   "type": "number",
                   "validations": [
                     {
@@ -293,7 +293,7 @@
                 "title": "Was there another party involved in the accident?",
                 "type": "column",
                 "info": {
-                  "internalName": "AnotherParty",
+                  "internalName": "anotherParty",
                   "type": "bool",
                   "on": "Yes",
                   "off": "No"
@@ -303,7 +303,7 @@
                 "title": "Full Name",
                 "type": "column",
                 "info": {
-                  "internalName": "OtherPartyName",
+                  "internalName": "otherPartyName",
                   "type": "text"
                 },
                 "conditions": [
@@ -322,7 +322,7 @@
                 "title": "Other Vehicle Make",
                 "type": "column",
                 "info": {
-                  "internalName": "OtherCarMake",
+                  "internalName": "otherCarMake",
                   "type": "text"
                 },
                 "conditions": [
@@ -337,7 +337,7 @@
                 "title": "Other Vehicle Model",
                 "type": "column",
                 "info": {
-                  "internalName": "OtherCarModel",
+                  "internalName": "otherCarModel",
                   "type": "text"
                 },
                 "conditions": [
@@ -356,7 +356,7 @@
                 "title": "Other Vehicle License Plate",
                 "type": "column",
                 "info": {
-                  "internalName": "OtherCarLicense",
+                  "internalName": "otherCarLicense",
                   "type": "text"
                 },
                 "conditions": [
@@ -371,7 +371,7 @@
                 "title": "Other Vehicle Identification Number",
                 "type": "column",
                 "info": {
-                  "internalName": "OtherVIN",
+                  "internalName": "otherVIN",
                   "type": "number"
                 },
                 "conditions": [
@@ -390,7 +390,7 @@
                 "title": "Insurance Policy Provider",
                 "type": "column",
                 "info": {
-                  "internalName": "PolicyProvider",
+                  "internalName": "policyProvider",
                   "type": "text"
                 },
                 "conditions": [
@@ -405,7 +405,7 @@
                 "title": "Other Insurance Policy Number",
                 "type": "column",
                 "info": {
-                  "internalName": "OtherPolicyNumber",
+                  "internalName": "otherPolicyNumber",
                   "type": "number"
                 },
                 "conditions": [
@@ -456,7 +456,7 @@
                 "title": "Date & Time",
                 "type": "column",
                 "info": {
-                  "internalName": "DateOfAccident",
+                  "internalName": "dateOfAccident",
                   "type": "date",
                   "showTime": true,
                   "validations": [
@@ -470,7 +470,7 @@
                 "title": "Location",
                 "type": "column",
                 "info": {
-                  "internalName": "AccidentLocation",
+                  "internalName": "accidentLocation",
                   "type": "text",
                   "validations": [
                     {
@@ -487,7 +487,7 @@
                 "title": "Weather Conditions",
                 "type": "column",
                 "info": {
-                  "internalName": "WeatherConditions",
+                  "internalName": "weatherConditions",
                   "type": "choice",
                   "options": [
                     {
@@ -522,7 +522,7 @@
                 "title": "Road Conditions",
                 "type": "column",
                 "info": {
-                  "internalName": "RoadConditions",
+                  "internalName": "roadConditions",
                   "type": "choice",
                   "options": [
                     {
@@ -561,7 +561,7 @@
                 "title": "Estimated Damage",
                 "type": "column",
                 "info": {
-                  "internalName": "EstimatedDamage",
+                  "internalName": "estimatedDamage",
                   "type": "number",
                   "suffix": "$",
                   "validations": [
@@ -575,7 +575,7 @@
                 "title": "Were there any witnesses?",
                 "type": "column",
                 "info": {
-                  "internalName": "Witnesses",
+                  "internalName": "witnesses",
                   "type": "bool",
                   "on": "Yes",
                   "off": "No",
@@ -595,7 +595,7 @@
                 "type": "column",
                 "info": {
                   "type": "text",
-                  "internalName": "WitnessName"
+                  "internalName": "witnessName"
                 },
                 "conditions": [
                   {
@@ -614,7 +614,7 @@
                 "type": "column",
                 "info": {
                   "type": "number",
-                  "internalName": "WitnessPhoneNumber",
+                  "internalName": "witnessPhoneNumber",
                   "validations": [
                     {
                       "name": "phone"
@@ -634,7 +634,7 @@
                 "type": "column",
                 "info": {
                   "type": "text",
-                  "internalName": "WitnessEmail",
+                  "internalName": "witnessEmail",
                   "validations": [
                     {
                       "name": "email"
@@ -657,7 +657,7 @@
                 "title": "Were police involved?",
                 "type": "column",
                 "info": {
-                  "internalName": "WerePoliceInvolved",
+                  "internalName": "werePoliceInvolved",
                   "type": "bool",
                   "on": "Yes",
                   "off": "No",
@@ -672,7 +672,7 @@
                 "title": "Police Report Number",
                 "type": "column",
                 "info": {
-                  "internalName": "PoliceReportNumber",
+                  "internalName": "policeReportNumber",
                   "type": "number"
                 },
                 "conditions": [
@@ -723,7 +723,7 @@
                 "title": "Description of Accident",
                 "type": "column",
                 "info": {
-                  "internalName": "AccidentDescription",
+                  "internalName": "accidentDescription",
                   "type": "text",
                   "mode": "multiline",
                   "validations": [
@@ -741,7 +741,7 @@
                 "title": "Label where the damage occured (Fullscreen as necessary)",
                 "type": "column",
                 "info": {
-                  "internalName": "CarCanvas",
+                  "internalName": "carCanvas",
                   "type": "canvas",
                   "height": 500,
                   "defaultValue": "https://apps.kwizcom.com/products/apsig/images/diagrams/car/car-diagram-transparent.png",
@@ -756,7 +756,7 @@
                 "title": "Image(s) of accident",
                 "type": "column",
                 "info": {
-                  "internalName": "AccidentImages",
+                  "internalName": "accidentImages",
                   "type": "file",
                   "isMulti": true,
                   "fileTypes": [
@@ -777,7 +777,7 @@
                 "title": "I hereby certify that the information provided in this report is true and accurate to the best of my knowledge. I understand that any false or misleading statements may affect the result of my claim and result in potential legal consequences.",
                 "type": "column",
                 "info": {
-                  "internalName": "Signature",
+                  "internalName": "signature",
                   "type": "canvas",
                   "height": 200,
                   "width": 200,
