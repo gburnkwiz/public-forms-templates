@@ -9,7 +9,7 @@
                             "title": "First Name",
                             "type": "column",
                             "info": {
-                                "internalName": "FirstName",
+                                "internalName": "firstName",
                                 "type": "text"
                             }
                         },
@@ -17,7 +17,7 @@
                             "title": "Last Name",
                             "type": "column",
                             "info": {
-                                "internalName": "LastName",
+                                "internalName": "lastName",
                                 "type": "text"
                             }
                         }
@@ -30,7 +30,7 @@
                             "type": "column",
                             "grow": 3,
                             "info": {
-                                "internalName": "Email",
+                                "internalName": "email",
                                 "type": "text",
                                 "validations": [
                                     { "name": "required" },
@@ -57,7 +57,7 @@
                             "type": "column",
                             "grow": 3,
                             "info": {
-                                "internalName": "PhoneNumber",
+                                "internalName": "phoneNumber",
                                 "type": "text",
                                 "prefix": "#",
                                 "validations": [
@@ -115,7 +115,7 @@
                             "title": "Subject",
                             "type": "column",
                             "info": {
-                                "internalName": "Title",
+                                "internalName": "title",
                                 "type": "text",
                                 "validations": [
                                     {
